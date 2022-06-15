@@ -16,6 +16,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        ExcusMod.LOGGER.info("Registering Mod Items for "+ExcusMod.MOD_ID);
+        ExcusMod.LOGGER.info("Registering ModItems for "+ExcusMod.MOD_ID);
     }
 }

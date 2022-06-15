@@ -1,5 +1,6 @@
 package com.mysticalsurvival.excusmod;
 
+import com.mysticalsurvival.excusmod.block.ModBlocks;
 import com.mysticalsurvival.excusmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,8 @@ public class ExcusMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
+
 	}
 }
